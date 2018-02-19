@@ -31,7 +31,7 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 * **Macbook Pro**: I run the fastest, latest MBP with 16GB of RAM and an SSD. I think you could get away with 8GB or RAM and a much older I7 (my 2013 was fun), but the SSD is essential. I've got a lot of stuff on an external SSD right now, which I'm not sure is a great choice.<BR>![MBP Specs](http://dr2050.com/clips/2016-MBP-Specs.png)
 * **[Focusrite Scarlett 4 Pre](https://global.focusrite.com/thunderbolt-audio-interfaces/clarett-4pre)**: You need two stereo outs to play this rig. Otherwise you don't get a cue mix. You could use this rig quite well using the built-in audio interface on the Maschine MK3, too, since it's got two stereo outs (though you have to set it up using the Maschine hardware to send the audience mix to the cue as well). My feeling is that the Thunderbolt interface is much lower latency, but I'm unable to prove that hunch.
 * **iPad Pro 2017 10.5"**: I use an iPad exclusively to run MIDI Designer Pro 2. While this will run on any iPad 2 or greater, I really recommend an iPad Air 2 or greater. My current iPad is definitely overkill.
-* **Maschine Controllers**: I'm using Maschine MK3 (with a half-unplugged pedal to trigger record) and a Maschine Jam (Jam on the right).
+* **Maschine Controllers**: I'm using Maschine MK3 and a Maschine Jam (Jam on the right).
 
 ### Connections
 
@@ -43,11 +43,24 @@ I don't think I'm using **any** of the features of the Extra Features Pack, so i
 
 ## Notes about the Maschine Setup
 
-**Do not load a kit into Slot H**
+### Do not load a kit into Slot H
 
 I'm using a lot of kits that are either in Maschine Expansions or come from somewhere else. You can and should load a new kit into any slot **except slot H!**. Slot H is for longer playing loops and one-shots (particularly spoken word type of things), and it's got some cool Macro controls hooked up.
 
+### Record-Only Pedal with Maschine MK3
+
+Maschine Studio has two mono inputs for Play and Record pedals. In this rig, there is no Maschine Studio and there's no need for a Play pedal. To get a Record pedal only, plug your pedal in halfway to Maschine MK3's pedal slot.
+
+### Maschine Can't Recognize Maschine Jam
+
+If you use the same computer with multiple Jam controllers, [you might encounter this issue](http://maschineismygirlfriend.com/post/maschine-jam-is-lighting-up-and-then-shutting-off-on-os-x).
 
 ## Notes on the Live Set's Recording Tracks
 
 You may have noticed the other tracks on the Recording section: Nikki and Visitor. These are for my wife, Nikki, when she sings, and for a visitor. You should definitely use zero-latency routing to get these to the audience and the cue mixes **before** they go through the their A/D pass and come in to Ableton Live, however!
+
+## Links 
+
+* [MIDI Designer Pro 2 on the App Store](https://itunes.apple.com/app/the-only-professional-midi-controller-for-iOS/id492291712?mt=8)
+* [THroNG Music on Soundcloud](https://soundcloud.com/throng)
+* [Superfly Music on SoundCloud](https://soundcloud.com/superflymusic)
