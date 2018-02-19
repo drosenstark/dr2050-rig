@@ -28,7 +28,7 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 
 ### Hardware
 
-* **Macbook Pro**: I run the fastest, latest MBP with 16GB of RAM and an SSD. I think you could get away with 8GB or RAM and a much older I7 (my 2013 was fun), but the SSD is essential. I've got a lot of stuff on an external SSD right now, which I'm not sure is a great choice.
+* **Macbook Pro**: I run the fastest, latest MBP with 16GB of RAM and an SSD. I think you could get away with 8GB or RAM and a much older I7 (my 2013 was fun), but the SSD is essential. I've got a lot of stuff on an external SSD right now, which I'm not sure is a great choice.<BR>![MBP Specs](http://dr2050.com/clips/2016-MBP-Specs.png)
 * **[Focusrite Scarlett 4 Pre](https://global.focusrite.com/thunderbolt-audio-interfaces/clarett-4pre)**: You need two stereo outs to play this rig. Otherwise you don't get a cue mix. You could use this rig quite well using the built-in audio interface on the Maschine MK3, too, since it's got two stereo outs (though you have to set it up using the Maschine hardware to send the audience mix to the cue as well). My feeling is that the Thunderbolt interface is much lower latency, but I'm unable to prove that hunch.
 * **iPad Pro 2017 10.5"**: I use an iPad exclusively to run MIDI Designer Pro 2. While this will run on any iPad 2 or greater, I really recommend an iPad Air 2 or greater. My current iPad is definitely overkill.
 
