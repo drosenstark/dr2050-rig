@@ -14,7 +14,7 @@ Putting Maschine inside Ableton is a trade-off: I've given up transport and temp
 
 Here's the current MIDI Designer screen, now consolidated to one (double) page.
 
-![DR2050 Rig in MIDI Designer Pro 2](https://www.dropbox.com/s/4pfkxi8fs192it4/2018-02-18%2018.34.37.png?raw=1)
+![DR2050 Rig in MIDI Designer Pro 2](http://dr2050.com/clips/2018-02-19-DR2050-Rig.png)
 
 ## Dependencies
 
