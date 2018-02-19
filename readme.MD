@@ -20,17 +20,17 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 
 ### Software
 
-* **Maschine 2** &mdash; Maschine 2 is the heart of this rig and the sole sound source.
-* **[MIDI Designer Pro 2](http://midiDR.com)** &mdash; Did I mention that I'm the software author of [MIDI Designer](http://mididesigner.com)? The whole point of this rig is to make music, and I've done many iterations of the rig without. Currently, I cannot do with it, but you could conceivably recreate this rig using a hardware MIDI controller, Lemur, or something else.
-* **Ableton Live** &mdash; While I'm using Ableton Live 9 Suite, I'm quite sure that I don't use any features that aren't in the Standard Edition. Here's [the editions matrix](https://www.ableton.com/en/live/compare-editions)
-* **Sugar Bytes Turnado** &mdash; I'm kind of in love with Turnado for stutters. Though I use the performance effects in Maschine quite a bit -- particularly the stutter -- I'm shoving the entire mix through Turnado and also provide a Wet knob which makes it very expressive and fun.
-* **Native Instruments Guitar Rig 5** &mdash; I'm currently **only** using the Studio Reverb from this, so you could probably substitute it out with something else without an issue.
+* **Maschine 2**: Maschine 2 is the heart of this rig and the sole sound source.
+* **[MIDI Designer Pro 2](http://midiDR.com)**: Did I mention that I'm the software author of [MIDI Designer](http://mididesigner.com)? The whole point of this rig is to make music, and I've done many iterations of the rig without. Currently, I cannot do with it, but you could conceivably recreate this rig using a hardware MIDI controller, Lemur, or something else.
+* **Ableton Live**: While I'm using Ableton Live 9 Suite, I'm quite sure that I don't use any features that aren't in the Standard Edition. Here's [the editions matrix](https://www.ableton.com/en/live/compare-editions)
+* **Sugar Bytes Turnado**: I'm kind of in love with Turnado for stutters. Though I use the performance effects in Maschine quite a bit -- particularly the stutter -- I'm shoving the entire mix through Turnado and also provide a Wet knob which makes it very expressive and fun.
+* **Native Instruments Guitar Rig 5**: I'm currently **only** using the Studio Reverb from this, so you could probably substitute it out with something else without an issue.
 
 ### Hardware
 
-* **Macbook Pro** &mdash; I run the fastest, latest MBP with 16GB of RAM and an SSD. I think you could get away with 8GB or RAM and a much older I7 (my 2013 was fun), but the SSD is essential. I've got a lot of stuff on an external SSD right now, which I'm not sure is a great choice.
-* **[Focusrite Scarlett 4 Pre](https://global.focusrite.com/thunderbolt-audio-interfaces/clarett-4pre)** &mdash; You need two stereo outs to play this rig. Otherwise you don't get a cue mix. You could use this rig quite well using the built-in audio interface on the Maschine MK3, too, since it's got two stereo outs (though you have to set it up using the Maschine hardware to send the audience mix to the cue as well). My feeling is that the Thunderbolt interface is much lower latency, but I'm unable to prove that hunch.
-* **iPad Pro 2017 10.5"** &mdash; I use an iPad exclusively to run MIDI Designer Pro 2. While this will run on any iPad 2 or greater, I really recommend an iPad Air 2 or greater. My current iPad is definitely overkill.
+* **Macbook Pro**: I run the fastest, latest MBP with 16GB of RAM and an SSD. I think you could get away with 8GB or RAM and a much older I7 (my 2013 was fun), but the SSD is essential. I've got a lot of stuff on an external SSD right now, which I'm not sure is a great choice.
+* **[Focusrite Scarlett 4 Pre](https://global.focusrite.com/thunderbolt-audio-interfaces/clarett-4pre)**: You need two stereo outs to play this rig. Otherwise you don't get a cue mix. You could use this rig quite well using the built-in audio interface on the Maschine MK3, too, since it's got two stereo outs (though you have to set it up using the Maschine hardware to send the audience mix to the cue as well). My feeling is that the Thunderbolt interface is much lower latency, but I'm unable to prove that hunch.
+* **iPad Pro 2017 10.5"**: I use an iPad exclusively to run MIDI Designer Pro 2. While this will run on any iPad 2 or greater, I really recommend an iPad Air 2 or greater. My current iPad is definitely overkill.
 
 ### Connections
 
