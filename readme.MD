@@ -20,11 +20,11 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 
 ### Software
 
-* **Maschine 2**: Maschine 2 is the heart of this rig and the sole sound source.
+* **Maschine 2**: Maschine 2 is the heart of this rig and the sole sound source. [ [Native Instruments Maschine](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/) ]
 * **[MIDI Designer Pro 2](http://midiDR.com)**: Did I mention that I'm the software author of [MIDI Designer](http://mididesigner.com)? The whole point of this rig is to make music, and I've done many iterations of the rig without. Currently, I cannot do with it, but you could conceivably recreate this rig using a hardware MIDI controller, Lemur, or something else.
-* **Ableton Live**: While I'm using Ableton Live 9 Suite, I'm quite sure that I don't use any features that aren't in the Standard Edition. Here's [the editions matrix](https://www.ableton.com/en/live/compare-editions)
-* **Sugar Bytes Turnado**: I'm kind of in love with Turnado for stutters. Though I use the performance effects in Maschine quite a bit -- particularly the stutter -- I'm shoving the entire mix through Turnado and also provide a Wet knob which makes it very expressive and fun.
-* **Native Instruments Guitar Rig 5**: I'm currently **only** using the Studio Reverb from this, so you could probably substitute it out with something else without an issue.
+* **Ableton Live**: While I'm using Ableton Live 9 Suite, I'm quite sure that I don't use any features that aren't in the Standard Edition. Here's [the editions matrix](https://www.ableton.com/en/live/compare-editions).
+* **Sugar Bytes Turnado**: I'm kind of in love with Turnado for stutters. Though I use the performance effects in Maschine quite a bit -- particularly the stutter -- I'm shoving the entire mix through Turnado and also provide a Wet knob which makes it very expressive and fun. [ [Turnado](https://sugar-bytes.de/turnado) ]
+* **Native Instruments Guitar Rig 5**: I'm currently **only** using the Studio Reverb from this, so you could probably substitute it out with something else without an issue. [ [NI Guitar Rig 5 Player](https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-5-player/) ]
 
 ### Hardware
 
