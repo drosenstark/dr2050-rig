@@ -1,4 +1,4 @@
-# Dan Rosenstark's Live Improvisation
+# Dan Rosenstark's Rig for Live Improvisation
 
 ## Overview
 
