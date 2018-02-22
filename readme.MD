@@ -25,6 +25,7 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 * **Ableton Live**: While I'm using Ableton Live 9 Suite, I'm quite sure that I don't use any features that aren't in the Standard Edition. Here's [the editions matrix](https://www.ableton.com/en/live/compare-editions).
 * **Sugar Bytes Turnado**: I'm kind of in love with Turnado for stutters. Though I use the performance effects in Maschine quite a bit -- particularly the stutter -- I'm shoving the entire mix through Turnado and also provide a Wet knob which makes it very expressive and fun. [ [Turnado](https://sugar-bytes.de/turnado) ]
 * **Native Instruments Guitar Rig 5**: I'm currently **only** using the Studio Reverb from this, so you could probably substitute it out with something else without an issue. [ [NI Guitar Rig 5 Player](https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-5-player/) ]
+* **DJM Filter by X-Fer Records**: I use this in Group H. [ [DJM Filter Free Download Page](https://splice.com/plugins/4442-djmfilter-vst-au-by-xfer-records) ]
 
 ### Hardware
 
@@ -32,6 +33,8 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 * **[Focusrite Scarlett 4 Pre](https://global.focusrite.com/thunderbolt-audio-interfaces/clarett-4pre)**: You need two stereo outs to play this rig. Otherwise you don't get a cue mix. You could use this rig quite well using the built-in audio interface on the Maschine MK3, too, since it's got two stereo outs (though you have to set it up using the Maschine hardware to send the audience mix to the cue as well). My feeling is that the Thunderbolt interface is much lower latency, but I'm unable to prove that hunch.
 * **iPad Pro 2017 10.5"**: I use an iPad exclusively to run MIDI Designer Pro 2. While this will run on any iPad 2 or greater, I really recommend an iPad Air 2 or greater. My current iPad is definitely overkill.
 * **Maschine Controllers**: I'm using Maschine MK3 and a Maschine Jam (Jam on the right).
+
+![](https://www.dropbox.com/s/uh3auh97r71mb6k/2018-02-19%2016.46.18.jpg?raw=1)
 
 ### Connections
 
