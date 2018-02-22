@@ -34,6 +34,8 @@ Here's the current MIDI Designer screen, now consolidated to one (double) page.
 * **iPad Pro 2017 10.5"**: I use an iPad exclusively to run MIDI Designer Pro 2. While this will run on any iPad 2 or greater, I really recommend an iPad Air 2 or greater. My current iPad is definitely overkill.
 * **Maschine Controllers**: I'm using Maschine MK3 and a Maschine Jam (Jam on the right).
 
+![](http://dr2050.com/automaticImages/dan-rig-2018-02-22.jpg)
+
 ### Connections
 
 I use the built-in MIDI connection between OS X High Sierra and iOS 11, although you could use [musicIO MIDI just as well](http://musicioapp.com/ios). **Note**: I also am one of the software authors of musicIO, too.
