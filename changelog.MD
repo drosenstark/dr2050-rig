@@ -12,7 +12,7 @@ On each filter track there's the reverb on/off and filter (both MIDI-controlled)
 
 **Disadvantages**
 
-- No midi-controllable cue. This sucks and it's confirmed ![image](https://www.dropbox.com/s/887ia6jjz89ps04/Screenshot%202020-05-30%2018.41.04.png?dl=1)
+- No midi-controllable cue. This sucks and it's confirmed ![image](images/Pasted_Image_5_30_20__6_55_PM.jpg)
 - No MIDI feedback for anything. Maschine does suck this way.
 - If you're using a simple MIDI controller then you need more advanced MIDI-mapping options (like being able to invert a range or limit a range). Maschine can do neither. If you're using MIDI Designer (I'm not right now), this isn't a hard limit but annoying.
 - Adjusting MIDI routings is a hassle but possible.
