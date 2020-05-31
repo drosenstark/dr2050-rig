@@ -1,9 +1,19 @@
+## 2020-05-30 19:48
+Turns out moving everything to Ableton offers great possibilities, but lots of work too.
+
+Can't use Ableton's cue buttons because they can't be controlled properly with a toggle. Why?
+
+- Add 3 tracks per Maschine Group: routing track with FX, to Master/Delay track and to Cue track. Then I'll let Ableton switch them.
+- Change all the MIDI controls to be normal and one channel (new Twister config file)
+
+Wow so frustrating, Ableton responding to one button with two different switches sends them in different orders at different times. WTF. Of course with MIDI Designer I would get around this shutting off MIDI receive entirely. Why am I doing this with the Twister? The software is painful to use, the knobs sometimes trigger the buttons, etc. etc. Forget it, switching back to MIDI Designer.
+
 ## 2020-05-30 18:27
 No vocal rig! Just four simple 4-group Maschine rig in Ableton Live.
 
 Lots of weird routing through Group 5, "filters," which allows me to have just two outputs from Maschine, one for Aux sends and one for Master send (Group 5 goes to master and the individual tracks have their aux sends go to the single aux out).
 
-On each filter track there's the reverb on/off and filter (both MIDI-controlled) and each goes to both the Group -> Master and the Aux (and that send is controlled by MIDI)  
+On each filter track there's the reverb on/off and filter (both MIDI-controlled) and each goes to both the Group -> Master and the Aux (and that send is controlled by MIDI)
 
 **Advantages**
 
