@@ -1,2 +1,4 @@
-Samples/Recorded/*.*
+Samples/**/*.*
 /**/.DS_Store
+MaschineFiles/dr2050-maschine-rig Samples
+Backup/*.*
