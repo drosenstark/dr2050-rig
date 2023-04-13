@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -R "$HOME/Dropbox/Apps/MIDI Designer Next/iPad" "$HOME/rig/MIDIDesigner"
