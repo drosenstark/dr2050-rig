@@ -1,3 +1,60 @@
-#!/bin/bash
+#!/usr/bin/env python3
 
-cp -R "$HOME/Dropbox/Apps/MIDI Designer Next/iPad" "$HOME/rig/MIDIDesigner"
+"""
+file_backup
+"""
+
+import argparse
+import os
+import shutil
+import time
+from datetime import datetime
+
+def copy_files(src, dest, dry_run):
+    latest_file_date = None
+    home_dir = os.path.expanduser("~")
+
+    if dry_run:
+        print(f"Would copy directory {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
+    else:
+        print(f"Copying directory {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
+
+    for root, _, files in os.walk(src):
+        relative_path = os.path.relpath(root, src)
+        dest_path = os.path.join(dest, relative_path)
+
+        for file in files:
+            s = os.path.join(root, file)
+            d = os.path.join(dest_path, file)
+
+            file_date = os.path.getmtime(s)
+            if latest_file_date is None or file_date > latest_file_date:
+                latest_file_date = file_date
+
+            if dry_run:
+                print(f"\tWould copy file {file} to {os.path.join(relative_path, file)}")
+            else:
+                os.makedirs(dest_path, exist_ok=True)
+                shutil.copy2(s, d)
+                print(f"\tCopied file {file} to {os.path.join(relative_path, file)}")
+
+    if datetime.fromtimestamp(latest_file_date).date() == datetime.today().date():
+        latest_file_date_str = f"today at {datetime.fromtimestamp(latest_file_date).strftime('%H:%M:%S')}"
+    else:
+        latest_file_date_str = time.ctime(latest_file_date)
+
+    print(f"The most recent file was modified {latest_file_date_str}")
+
+def main():
+    parser = argparse.ArgumentParser(description='Backup utility')
+    parser.add_argument('--dry-run', action='store_true', help='perform a trial run with no changes made')
+
+    args = parser.parse_args()
+
+    source_folder = os.path.join(os.environ['HOME'], "Dropbox/Apps/MIDI Designer Next/iPad")
+    destination_folder = os.path.join(os.environ['HOME'], "rig/MIDIDesigner")
+
+    copy_files(source_folder, destination_folder, args.dry_run)
+
+if __name__ == "__main__":
+    main()
