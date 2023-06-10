@@ -26,14 +26,10 @@ def copy_files(src, dest, dry_run):
     source_file_date = get_most_recent_file_date(src)
     dest_file_date = get_most_recent_file_date(dest)
 
+    print(f"Copying from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
     if source_file_date <= dest_file_date:
-        print(f"No new files to copy from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}.")
+        print(f"Everything up to date, exiting.")
         return
-
-    if dry_run:
-        print(f"Would copy from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
-    else:
-        print(f"Copying from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
 
     for root, _, files in os.walk(src):
         relative_path = os.path.relpath(root, src)
