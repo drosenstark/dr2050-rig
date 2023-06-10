@@ -10,9 +10,25 @@ import shutil
 import time
 from datetime import datetime
 
-def copy_files(src, dest, dry_run):
+def get_most_recent_file_date(src):
     latest_file_date = None
+    for root, _, files in os.walk(src):
+        for file in files:
+            s = os.path.join(root, file)
+            file_date = os.path.getmtime(s)
+            if latest_file_date is None or file_date > latest_file_date:
+                latest_file_date = file_date
+    return latest_file_date
+
+def copy_files(src, dest, dry_run):
     home_dir = os.path.expanduser("~")
+
+    source_file_date = get_most_recent_file_date(src)
+    dest_file_date = get_most_recent_file_date(dest)
+
+    if source_file_date <= dest_file_date:
+        print(f"No new files to copy from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}.")
+        return
 
     if dry_run:
         print(f"Would copy from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
@@ -27,10 +43,6 @@ def copy_files(src, dest, dry_run):
             s = os.path.join(root, file)
             d = os.path.join(dest_path, file)
 
-            file_date = os.path.getmtime(s)
-            if latest_file_date is None or file_date > latest_file_date:
-                latest_file_date = file_date
-
             if dry_run:
                 print(f"\tWould copy {file}")
             else:
@@ -38,10 +50,10 @@ def copy_files(src, dest, dry_run):
                 shutil.copy2(s, d)
                 print(f"\tCopied {file}")
 
-    if datetime.fromtimestamp(latest_file_date).date() == datetime.today().date():
-        latest_file_date_str = f"today at {datetime.fromtimestamp(latest_file_date).strftime('%H:%M:%S')}"
+    if datetime.fromtimestamp(source_file_date).date() == datetime.today().date():
+        latest_file_date_str = f"today at {datetime.fromtimestamp(source_file_date).strftime('%H:%M:%S')}"
     else:
-        latest_file_date_str = time.ctime(latest_file_date)
+        latest_file_date_str = time.ctime(source_file_date)
 
     print(f"The most recent modification was {latest_file_date_str}")
 
