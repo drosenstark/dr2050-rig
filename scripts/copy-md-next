@@ -54,6 +54,7 @@ def copy_files(src, dest, dry_run):
     print(f"The most recent modification was {latest_file_date_str}")
 
 def main():
+    print(f"-------------")
     parser = argparse.ArgumentParser(description='Backup utility')
     parser.add_argument('--dry-run', action='store_true', help='perform a trial run with no changes made')
 
@@ -63,6 +64,7 @@ def main():
     destination_folder = os.path.join(os.environ['HOME'], "rig/MIDIDesigner")
 
     copy_files(source_folder, destination_folder, args.dry_run)
+    print(f"-------------")
 
 if __name__ == "__main__":
     main()
