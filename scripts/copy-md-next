@@ -26,6 +26,8 @@ def copy_files(src, dest, dry_run):
     source_file_date = get_most_recent_file_date(src)
     dest_file_date = get_most_recent_file_date(dest)
 
+    three_days_ago = time.time() - 3 * 24 * 60 * 60
+
     print(f"Copying from {src.replace(home_dir, '~')} to {dest.replace(home_dir, '~')}")
     if source_file_date <= dest_file_date:
         print(f"Everything up to date, exiting.")
@@ -37,6 +39,11 @@ def copy_files(src, dest, dry_run):
 
         for file in files:
             s = os.path.join(root, file)
+            file_date = os.path.getmtime(s)
+
+            if file_date < three_days_ago or "Blank" in file or "blank" in file:
+                continue
+
             d = os.path.join(dest_path, file)
 
             if dry_run:
@@ -60,7 +67,14 @@ def main():
 
     args = parser.parse_args()
 
+    # copy the system files to iPad
     source_folder = os.path.join(os.environ['HOME'], "Dropbox/Apps/MIDI Designer Next/iPad")
+    destination_folder = os.path.join(os.environ['HOME'], "rig/MIDIDesigner/iPad")
+
+    copy_files(source_folder, destination_folder, args.dry_run)
+    print(f"-------------")
+    # copy any recent file except Blank to the root
+    source_folder = os.path.join(os.environ['HOME'], "Dropbox/Apps/MIDI Designer Next")
     destination_folder = os.path.join(os.environ['HOME'], "rig/MIDIDesigner")
 
     copy_files(source_folder, destination_folder, args.dry_run)
