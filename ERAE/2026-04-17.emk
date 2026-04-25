@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EreaLabLayout name="2026-04-17">
+  <VersionEraeLab prefix="86" major="1" minor="6" patch="3" commit="5900cb21"/>
+  <Revisions>
+    <LayoutTag revision="1" tagName="" date="2026-04-16T23:56:11.856-04:00">
+      <Layout uniqueID="105">
+        <Keyboard>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="0" coloring="1" color="16748032" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="0" yPos="0" width="39" height="24" priority="0" orientation="3"/>
+          <KeyAttributes midiChannel="0" midiGroup="0">
+            <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+            <Note root="11" baseOctave="2"/>
+            <VelocityTune disabled="0" intensity="63"/>
+            <LiftTune disabled="0" intensity="63"/>
+            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+                          maxValue="127" intensity="127" smoothing="0"/>
+            <VibratoTune disabled="1" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <CCPressure>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="59"/>
+            </CCPressure>
+            <CCXAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="60"/>
+            </CCXAbsolute>
+            <CCYAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="61"/>
+            </CCYAbsolute>
+            <CCXRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="62"/>
+            </CCXRelative>
+            <CCYRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="63"/>
+            </CCYRelative>
+            <CVKey>
+              <CVNoteInterface gateEnable="1" note1vPerOctEnable="1">
+                <CVOutput index="0" disabled="1"/>
+              </CVNoteInterface>
+              <CVVelocity>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVVelocity>
+              <CVPressure>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVPressure>
+              <CVXAbsolute>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXAbsolute>
+              <CVYAbsolute>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYAbsolute>
+              <CVXRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXRelative>
+              <CVYRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYRelative>
+            </CVKey>
+          </KeyAttributes>
+          <KeyboardUnionInterface>
+            <IsoKeyboardAttributes keyWidth="3" keyHeight="3" degreesLineOffset="1" semitonesLineOffset="11"
+                                   startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
+                                   mpeMasterChannel="0" cvNumVoice="1">
+              <Scale name="2741"/>
+              <GlissandoTune disabled="1" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+                             inTuneWidth="50"/>
+              <CC74Tune initialValue="63" gesture="4">
+                <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                  smoothing="0"/>
+              </CC74Tune>
+              <KeyStyles>
+                <ChromaNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </ChromaNoteStyles>
+                <ScaleNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="3080276" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="3080276" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="0" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="110" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="8454399" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="3080276" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="8454399" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </ScaleNoteStyles>
+                <OffScaleNoteStyle>
+                  <Style>
+                    <IntensityChange value="107" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </OffScaleNoteStyle>
+              </KeyStyles>
+              <ArpeggiatorInterface disabled="1" octaves="0" rate="3" style="0" pressureToVelocity="40"
+                                    syncToMidiClock="1"/>
+            </IsoKeyboardAttributes>
+          </KeyboardUnionInterface>
+        </Keyboard>
+        <Footswitch midiChannel="0" midiGroup="0" latched="0">
+          <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+          <FootswitchAttributesUnion>
+            <FootswitchDisabledPedalAttributes/>
+          </FootswitchAttributesUnion>
+        </Footswitch>
+        <Footswitch midiChannel="0" midiGroup="0" latched="0">
+          <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+          <FootswitchAttributesUnion>
+            <FootswitchDisabledPedalAttributes/>
+          </FootswitchAttributesUnion>
+        </Footswitch>
+        <VersionEraeData prefix="86" major="6" minor="0" patch="0" commit="1087fd0d"/>
+        <GridElement>
+          <Style>
+            <IntensityChange value="0" time="0"/>
+            <StyleAttributes>
+              <ButtonDualIntensityProperties baseColor="11075584" disabledIntensity="63"/>
+            </StyleAttributes>
+          </Style>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="39" yPos="21" width="3" height="3" priority="0" orientation="3"/>
+          <GridElementAttribute>
+            <ButtonAttributes midiChannel="0" midiGroup="0" latched="1">
+              <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+              <ButtonAttributesUnion>
+                <ButtonControlChangeAttributes controller_A_disabled="0" controller_A="8" value_A="127" controller_B_disabled="0"
+                                               controller_B="8" value_B="0"/>
+              </ButtonAttributesUnion>
+            </ButtonAttributes>
+          </GridElementAttribute>
+        </GridElement>
+        <GridElement>
+          <Style>
+            <IntensityChange value="0" time="0"/>
+            <StyleAttributes>
+              <ButtonDualIntensityProperties baseColor="11075584" disabledIntensity="63"/>
+            </StyleAttributes>
+          </Style>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="39" yPos="15" width="3" height="3" priority="0" orientation="3"/>
+          <GridElementAttribute>
+            <ButtonAttributes midiChannel="0" midiGroup="0" latched="1">
+              <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+              <ButtonAttributesUnion>
+                <ButtonControlChangeAttributes controller_A_disabled="0" controller_A="10" value_A="127" controller_B_disabled="0"
+                                               controller_B="10" value_B="0"/>
+              </ButtonAttributesUnion>
+            </ButtonAttributes>
+          </GridElementAttribute>
+        </GridElement>
+        <GridElement>
+          <Style>
+            <IntensityChange value="0" time="0"/>
+            <StyleAttributes>
+              <ButtonDualIntensityProperties baseColor="11075584" disabledIntensity="63"/>
+            </StyleAttributes>
+          </Style>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="39" yPos="18" width="3" height="3" priority="0" orientation="3"/>
+          <GridElementAttribute>
+            <ButtonAttributes midiChannel="0" midiGroup="0" latched="1">
+              <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+              <ButtonAttributesUnion>
+                <ButtonControlChangeAttributes controller_A_disabled="0" controller_A="9" value_A="127" controller_B_disabled="0"
+                                               controller_B="9" value_B="0"/>
+              </ButtonAttributesUnion>
+            </ButtonAttributes>
+          </GridElementAttribute>
+        </GridElement>
+        <GridElement>
+          <Style>
+            <IntensityChange value="0" time="0"/>
+            <StyleAttributes>
+              <ButtonDualIntensityProperties baseColor="11075584" disabledIntensity="63"/>
+            </StyleAttributes>
+          </Style>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="39" yPos="12" width="3" height="3" priority="0" orientation="3"/>
+          <GridElementAttribute>
+            <ButtonAttributes midiChannel="0" midiGroup="0" latched="1">
+              <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+              <ButtonAttributesUnion>
+                <ButtonControlChangeAttributes controller_A_disabled="0" controller_A="11" value_A="127" controller_B_disabled="0"
+                                               controller_B="11" value_B="0"/>
+              </ButtonAttributesUnion>
+            </ButtonAttributes>
+          </GridElementAttribute>
+        </GridElement>
+      </Layout>
+    </LayoutTag>
+  </Revisions>
+</EreaLabLayout>
