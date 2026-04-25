@@ -47,6 +47,28 @@ Eighth-note milliseconds:
 [expr 30000 / $f1]
 ```
 
+## Parameters
+
+Parameters are name-based in this setup.
+
+- Use the same parameter name in both places: the GUI automation setup and the patch object.
+- Use parameter names that begin with a letter.
+- Refer to the parameter in the patch by name.
+
+Example:
+
+- In the GUI / automation panel, create a parameter named `one` by typing `param one`
+- In the patch, refer to it as:
+
+```pd
+[param one]
+```
+
+In that example, the parameter name is `one` everywhere:
+
+- outside the patch, in the host / automation UI: `one`
+- inside the patch, in the object text: `param one`
+
 ## Known-good patches
 
 - `transpose-1-beat-later.pd`
