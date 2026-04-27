@@ -19,7 +19,7 @@
 #X obj 320 360 makenote 100 100;
 #X obj 320 400 noteout;
 #X obj 700 40 playhead;
-#X obj 700 80 param division;
+#X obj 700 80 param division 0.5;
 #X obj 700 120 expr if($f1 < 0.167\, 1\, if($f1 < 0.333\, 2\, if($f1 < 0.5\, 4\, if($f1 < 0.667\, 8\, if($f1 < 0.833\, 16\, 32)))));
 #X floatatom 700 160 5 0 0 0 division - - 0;
 #X obj 860 80 loadbang;
@@ -29,6 +29,7 @@
 #X floatatom 700 280 8 0 0 0 step_ms - - 0;
 #X obj 700 320 expr $f1 * 0.9;
 #X floatatom 700 360 8 0 0 0 note_len_ms - - 0;
+#X obj 860 160 print param-div;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
 #X connect 0 2 2 2;
@@ -60,12 +61,10 @@
 #X connect 17 1 18 1;
 #X connect 19 5 25 0;
 #X connect 20 0 21 0;
+#X connect 20 0 30 0;
 #X connect 21 0 22 0;
-#X connect 21 0 15 2;
 #X connect 21 0 25 1;
 #X connect 23 0 24 0;
-#X connect 24 0 22 0;
-#X connect 24 0 15 2;
 #X connect 24 0 25 1;
 #X connect 25 0 26 0;
 #X connect 26 0 13 1;
