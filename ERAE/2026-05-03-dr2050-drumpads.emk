@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EreaLabLayout name="2026-05-03-dr2050-drumpads">
+  <VersionEraeLab prefix="86" major="1" minor="6" patch="3" commit="5900cb21"/>
+  <Revisions>
+    <LayoutTag revision="1" tagName="" date="2026-05-03T13:56:14.663-04:00">
+      <Layout uniqueID="101">
+        <Footswitch midiChannel="0" midiGroup="0" latched="0">
+          <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+          <FootswitchAttributesUnion>
+            <FootswitchDisabledPedalAttributes/>
+          </FootswitchAttributesUnion>
+        </Footswitch>
+        <Footswitch midiChannel="0" midiGroup="0" latched="0">
+          <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+          <FootswitchAttributesUnion>
+            <FootswitchDisabledPedalAttributes/>
+          </FootswitchAttributesUnion>
+        </Footswitch>
+        <VersionEraeData prefix="86" major="6" minor="0" patch="0" commit="1087fd0d"/>
+        <Keyboard>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="0" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="0" coloring="1" color="0" speed="0"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="0" yPos="0" width="20" height="12" priority="0" orientation="3"/>
+          <KeyAttributes midiChannel="0" midiGroup="0">
+            <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+            <Note root="0" baseOctave="3"/>
+            <VelocityTune disabled="0" intensity="63"/>
+            <LiftTune disabled="0" intensity="63"/>
+            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+                          maxValue="127" intensity="127" smoothing="0"/>
+            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <CCPressure>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="59"/>
+            </CCPressure>
+            <CCXAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="60"/>
+            </CCXAbsolute>
+            <CCYAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="61"/>
+            </CCYAbsolute>
+            <CCXRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="62"/>
+            </CCXRelative>
+            <CCYRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="63"/>
+            </CCYRelative>
+            <CVKey>
+              <CVNoteInterface gateEnable="1" note1vPerOctEnable="1">
+                <CVOutput index="0" disabled="1"/>
+              </CVNoteInterface>
+              <CVVelocity>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVVelocity>
+              <CVPressure>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVPressure>
+              <CVXAbsolute>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXAbsolute>
+              <CVYAbsolute>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYAbsolute>
+              <CVXRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXRelative>
+              <CVYRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYRelative>
+            </CVKey>
+          </KeyAttributes>
+          <KeyboardUnionInterface>
+            <DrumpadKeyboardAttributes keyWidth="5" keyHeight="3" degreesLineOffset="3" semitonesLineOffset="4"
+                                       startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
+                                       mpeMasterChannel="0" cvNumVoice="1">
+              <Scale name="4095"/>
+              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+                             inTuneWidth="50"/>
+              <CC74Tune initialValue="63" gesture="4">
+                <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                  smoothing="0"/>
+              </CC74Tune>
+              <KeyStyles>
+                <ChromaNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </ChromaNoteStyles>
+                <ScaleNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                </ScaleNoteStyles>
+                <OffScaleNoteStyle>
+                  <Style>
+                    <IntensityChange value="-1" time="255"/>
+                    <StyleAttributes>
+                      <Empty/>
+                    </StyleAttributes>
+                  </Style>
+                </OffScaleNoteStyle>
+              </KeyStyles>
+              <ArpeggiatorInterface disabled="1" octaves="0" rate="3" style="0" pressureToVelocity="40"
+                                    syncToMidiClock="1"/>
+            </DrumpadKeyboardAttributes>
+          </KeyboardUnionInterface>
+        </Keyboard>
+        <Keyboard>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="1" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="0" coloring="1" color="0" speed="0"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="0" yPos="12" width="20" height="12" priority="0" orientation="3"/>
+          <KeyAttributes midiChannel="0" midiGroup="0">
+            <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+            <Note root="8" baseOctave="5"/>
+            <VelocityTune disabled="0" intensity="63"/>
+            <LiftTune disabled="0" intensity="63"/>
+            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+                          maxValue="127" intensity="127" smoothing="0"/>
+            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <CCPressure>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="59"/>
+            </CCPressure>
+            <CCXAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="60"/>
+            </CCXAbsolute>
+            <CCYAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="61"/>
+            </CCYAbsolute>
+            <CCXRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="62"/>
+            </CCXRelative>
+            <CCYRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="63"/>
+            </CCYRelative>
+            <CVKey>
+              <CVNoteInterface gateEnable="1" note1vPerOctEnable="1">
+                <CVOutput index="0" disabled="1"/>
+              </CVNoteInterface>
+              <CVVelocity>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVVelocity>
+              <CVPressure>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVPressure>
+              <CVXAbsolute>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXAbsolute>
+              <CVYAbsolute>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYAbsolute>
+              <CVXRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXRelative>
+              <CVYRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYRelative>
+            </CVKey>
+          </KeyAttributes>
+          <KeyboardUnionInterface>
+            <DrumpadKeyboardAttributes keyWidth="5" keyHeight="3" degreesLineOffset="3" semitonesLineOffset="4"
+                                       startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
+                                       mpeMasterChannel="0" cvNumVoice="1">
+              <Scale name="4095"/>
+              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+                             inTuneWidth="50"/>
+              <CC74Tune initialValue="63" gesture="4">
+                <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                  smoothing="0"/>
+              </CC74Tune>
+              <KeyStyles>
+                <ChromaNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="2948864" endColor="16515296" gradientAngle="-54"
+                                                gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </ChromaNoteStyles>
+                <ScaleNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                </ScaleNoteStyles>
+                <OffScaleNoteStyle>
+                  <Style>
+                    <IntensityChange value="-1" time="255"/>
+                    <StyleAttributes>
+                      <Empty/>
+                    </StyleAttributes>
+                  </Style>
+                </OffScaleNoteStyle>
+              </KeyStyles>
+              <ArpeggiatorInterface disabled="1" octaves="0" rate="3" style="0" pressureToVelocity="40"
+                                    syncToMidiClock="1"/>
+            </DrumpadKeyboardAttributes>
+          </KeyboardUnionInterface>
+        </Keyboard>
+        <Keyboard>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="1" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="0" coloring="1" color="0" speed="0"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="22" yPos="0" width="20" height="12" priority="0" orientation="3"/>
+          <KeyAttributes midiChannel="0" midiGroup="0">
+            <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+            <Note root="4" baseOctave="4"/>
+            <VelocityTune disabled="0" intensity="63"/>
+            <LiftTune disabled="0" intensity="63"/>
+            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+                          maxValue="127" intensity="127" smoothing="0"/>
+            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <CCPressure>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="59"/>
+            </CCPressure>
+            <CCXAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="60"/>
+            </CCXAbsolute>
+            <CCYAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="61"/>
+            </CCYAbsolute>
+            <CCXRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="62"/>
+            </CCXRelative>
+            <CCYRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="63"/>
+            </CCYRelative>
+            <CVKey>
+              <CVNoteInterface gateEnable="1" note1vPerOctEnable="1">
+                <CVOutput index="0" disabled="1"/>
+              </CVNoteInterface>
+              <CVVelocity>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVVelocity>
+              <CVPressure>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVPressure>
+              <CVXAbsolute>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXAbsolute>
+              <CVYAbsolute>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYAbsolute>
+              <CVXRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXRelative>
+              <CVYRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYRelative>
+            </CVKey>
+          </KeyAttributes>
+          <KeyboardUnionInterface>
+            <DrumpadKeyboardAttributes keyWidth="5" keyHeight="3" degreesLineOffset="3" semitonesLineOffset="4"
+                                       startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
+                                       mpeMasterChannel="0" cvNumVoice="1">
+              <Scale name="4095"/>
+              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+                             inTuneWidth="50"/>
+              <CC74Tune initialValue="63" gesture="4">
+                <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                  smoothing="0"/>
+              </CC74Tune>
+              <KeyStyles>
+                <ChromaNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </ChromaNoteStyles>
+                <ScaleNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                </ScaleNoteStyles>
+                <OffScaleNoteStyle>
+                  <Style>
+                    <IntensityChange value="-1" time="255"/>
+                    <StyleAttributes>
+                      <Empty/>
+                    </StyleAttributes>
+                  </Style>
+                </OffScaleNoteStyle>
+              </KeyStyles>
+              <ArpeggiatorInterface disabled="1" octaves="0" rate="3" style="0" pressureToVelocity="40"
+                                    syncToMidiClock="1"/>
+            </DrumpadKeyboardAttributes>
+          </KeyboardUnionInterface>
+        </Keyboard>
+        <Keyboard>
+          <Animations>
+            <AnimationClick>
+              <AnimationEvent shape="0" coloring="1" color="16777215" speed="3"/>
+            </AnimationClick>
+            <AnimationSlide>
+              <AnimationEvent shape="7" coloring="1" color="16777215" speed="3"/>
+            </AnimationSlide>
+            <AnimationRelease>
+              <AnimationEvent shape="0" coloring="1" color="0" speed="0"/>
+            </AnimationRelease>
+          </Animations>
+          <Geometry xPos="22" yPos="12" width="20" height="12" priority="0" orientation="3"/>
+          <KeyAttributes midiChannel="0" midiGroup="0">
+            <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
+            <Note root="0" baseOctave="7"/>
+            <VelocityTune disabled="0" intensity="63"/>
+            <LiftTune disabled="0" intensity="63"/>
+            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+                          maxValue="127" intensity="127" smoothing="0"/>
+            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <CCPressure>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="59"/>
+            </CCPressure>
+            <CCXAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="60"/>
+            </CCXAbsolute>
+            <CCYAbsolute>
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="61"/>
+            </CCYAbsolute>
+            <CCXRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="62"/>
+            </CCXRelative>
+            <CCYRelative initialValue="63">
+              <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                smoothing="0"/>
+              <Controller disabled="1" value="63"/>
+            </CCYRelative>
+            <CVKey>
+              <CVNoteInterface gateEnable="1" note1vPerOctEnable="1">
+                <CVOutput index="0" disabled="1"/>
+              </CVNoteInterface>
+              <CVVelocity>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVVelocity>
+              <CVPressure>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVPressure>
+              <CVXAbsolute>
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXAbsolute>
+              <CVYAbsolute>
+                <CVContinous min="-7568" max="17632">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYAbsolute>
+              <CVXRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVXRelative>
+              <CVYRelative initialValue="0">
+                <CVContinous min="-32768" max="32767">
+                  <CVOutput index="0" disabled="1"/>
+                </CVContinous>
+              </CVYRelative>
+            </CVKey>
+          </KeyAttributes>
+          <KeyboardUnionInterface>
+            <DrumpadKeyboardAttributes keyWidth="5" keyHeight="3" degreesLineOffset="3" semitonesLineOffset="4"
+                                       startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
+                                       mpeMasterChannel="0" cvNumVoice="1">
+              <Scale name="4095"/>
+              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+                             inTuneWidth="50"/>
+              <CC74Tune initialValue="63" gesture="4">
+                <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
+                                  smoothing="0"/>
+              </CC74Tune>
+              <KeyStyles>
+                <ChromaNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <SolidColorProperties color="1029888"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <EdgeColorProperties edgeColor="0" backgroundColor="16777215" edgeWidth="1"/>
+                    </StyleAttributes>
+                  </Style>
+                </ChromaNoteStyles>
+                <ScaleNoteStyles>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                  <Style>
+                    <IntensityChange value="-128" time="5"/>
+                    <StyleAttributes>
+                      <LinearGradientProperties startColor="49919" endColor="8454399" gradientAngle="-54" gradientCurve="127"/>
+                    </StyleAttributes>
+                  </Style>
+                </ScaleNoteStyles>
+                <OffScaleNoteStyle>
+                  <Style>
+                    <IntensityChange value="-1" time="255"/>
+                    <StyleAttributes>
+                      <Empty/>
+                    </StyleAttributes>
+                  </Style>
+                </OffScaleNoteStyle>
+              </KeyStyles>
+              <ArpeggiatorInterface disabled="1" octaves="0" rate="3" style="0" pressureToVelocity="40"
+                                    syncToMidiClock="1"/>
+            </DrumpadKeyboardAttributes>
+          </KeyboardUnionInterface>
+        </Keyboard>
+      </Layout>
+    </LayoutTag>
+  </Revisions>
+</EreaLabLayout>
