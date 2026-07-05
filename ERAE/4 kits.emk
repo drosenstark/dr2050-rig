@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<EreaLabLayout name="2026-05-03-dr2050-drumpads">
+<EreaLabLayout name="4 kits">
   <VersionEraeLab prefix="86" major="1" minor="6" patch="3" commit="5900cb21"/>
   <Revisions>
-    <LayoutTag revision="1" tagName="" date="2026-05-08T20:40:33.115-04:00">
+    <LayoutTag revision="1" tagName="" date="2026-05-09T21:57:56.871-04:00">
       <Layout uniqueID="101">
         <Keyboard>
           <Animations>
@@ -23,9 +23,9 @@
             <Note root="0" baseOctave="3"/>
             <VelocityTune disabled="0" intensity="63"/>
             <LiftTune disabled="0" intensity="63"/>
-            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+            <PressureTune disabled="1" pressureType="1" tracking="7" filter="0" minValue="0"
                           maxValue="127" intensity="127" smoothing="0"/>
-            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <VibratoTune disabled="1" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
             <CCPressure>
               <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
                                 smoothing="0"/>
@@ -92,7 +92,7 @@
                                        startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
                                        mpeMasterChannel="0" cvNumVoice="1">
               <Scale name="4095"/>
-              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+              <GlissandoTune disabled="1" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
                              inTuneWidth="50"/>
               <CC74Tune initialValue="63" gesture="4">
                 <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
@@ -273,9 +273,9 @@
             <Note root="8" baseOctave="5"/>
             <VelocityTune disabled="0" intensity="63"/>
             <LiftTune disabled="0" intensity="63"/>
-            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+            <PressureTune disabled="1" pressureType="1" tracking="7" filter="0" minValue="0"
                           maxValue="127" intensity="127" smoothing="0"/>
-            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <VibratoTune disabled="1" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
             <CCPressure>
               <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
                                 smoothing="0"/>
@@ -342,7 +342,7 @@
                                        startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
                                        mpeMasterChannel="0" cvNumVoice="1">
               <Scale name="4095"/>
-              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+              <GlissandoTune disabled="1" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
                              inTuneWidth="50"/>
               <CC74Tune initialValue="63" gesture="4">
                 <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
@@ -769,14 +769,14 @@
             </AnimationRelease>
           </Animations>
           <Geometry xPos="22" yPos="12" width="20" height="12" priority="0" orientation="3"/>
-          <KeyAttributes midiChannel="0" midiGroup="0">
+          <KeyAttributes midiChannel="15" midiGroup="0">
             <MidiOutputDest usbDevice="1" usbHost="0" midiA="0" midiB="0"/>
             <Note root="0" baseOctave="7"/>
             <VelocityTune disabled="0" intensity="63"/>
             <LiftTune disabled="0" intensity="63"/>
-            <PressureTune disabled="0" pressureType="1" tracking="7" filter="0" minValue="0"
+            <PressureTune disabled="0" pressureType="0" tracking="7" filter="0" minValue="0"
                           maxValue="127" intensity="127" smoothing="0"/>
-            <VibratoTune disabled="0" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
+            <VibratoTune disabled="1" style="0" intensity="127" smoothing="127" pitchBendRange="12"/>
             <CCPressure>
               <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
                                 smoothing="0"/>
@@ -843,7 +843,7 @@
                                        startNote="0" octaveFixed="0" chromaNotesShown="1" mpeEnabled="0"
                                        mpeMasterChannel="0" cvNumVoice="1">
               <Scale name="4095"/>
-              <GlissandoTune disabled="0" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
+              <GlissandoTune disabled="1" yDisabled="0" retrigger="0" tuneLocation="0" smoothing="63"
                              inTuneWidth="50"/>
               <CC74Tune initialValue="63" gesture="4">
                 <CCAttributesBase tracking="2" filter="0" minValue="0" maxValue="127" intensity="127"
